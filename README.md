@@ -72,3 +72,26 @@ or
 
 ```python3 m3u_to_channels.py CA01_CANADA.m3u mychannels4.txt```
 
+### Installer Example
+
+```#!/bin/sh
+mkdir ~/Downloads/mxtv-installer
+cd ~/Downloads/mxtv-installer
+wget https://github.com/Axel-Erfurt/mxtv/archive/refs/heads/main.zip
+unzip main.zip
+mv mxtv-main mxtv
+sudo cp -rf ./mxtv /opt
+mxtv_dir=$HOME/.mxtv/
+if [ -d "$mxtv_dir" ]
+ then
+    echo "found $mxtv_dir"
+else
+    echo "$mxtv_dir not found"
+    echo "creating $mxtv_dir"
+    mkdir -p $mxtv_dir
+    cp ./mxtv/mychannels2.txt ~/.mxtv/mychannels1.txt
+fi
+cp ./mxtv/mxtv.desktop ~/.local/share/applications
+cp ./mxtv/mxtvs.desktop ~/.local/share/applications
+rm -rf ~/Downloads/mxtv-installer
+```
