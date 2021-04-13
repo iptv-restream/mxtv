@@ -1,6 +1,8 @@
 # mxtv
 TV Player for MX
 
+mxtv is a lite version of the [Linux Mint hypnotix player](https://github.com/linuxmint/hypnotix)
+
 __mxtv__
 
 ![screnshot](https://github.com/Axel-Erfurt/hypnotixLite/blob/main/screenshot2.png)
