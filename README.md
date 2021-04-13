@@ -3,12 +3,12 @@ TV Player for MX
 
 __mxtv__
 
-![screnshot](https://github.com/Axel-Erfurt/mxtv/blob/main/screenshot2.png)
+![screnshot](https://github.com/Axel-Erfurt/hypnotixLite/blob/main/screenshot2.png)
 
 
 __mxtvs__
 
-![screnshot](https://github.com/Axel-Erfurt/mxtv/blob/main/screenshot_s.png)
+![screnshot](https://github.com/Axel-Erfurt/hypnotixLite/blob/main/screenshot_s.png)
 
 ### Requirements
 
