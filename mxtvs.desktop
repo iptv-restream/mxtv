@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Exec=python3 ./mxtvs.py
+Name=MX-TV-S
+GenericName=MX-TV-S
+Comment=Lite version of Hypnotix IPTV Player
+Icon=mplayer
+Categories=AudioVideo;Player
+Hidden=false
+NoDisplay=false
+StartupNotify=true
+Keywords=Video;Player;
+Path=/opt/mxtv
+Terminal=false
