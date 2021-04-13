@@ -17,16 +17,6 @@ __mxtvs__
 - python3 >= 3.6
 - libmpv1
 
-### Installation
-
-extract it wherever you want
-
-### Start
-
-```cd /path/to/mxtv```
-
-```python3 ./mxtv.py```
-
 ### Playlists
 
 Name your lists mychannels[x].txt
