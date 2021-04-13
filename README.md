@@ -95,3 +95,11 @@ cp ./mxtv/mxtv.desktop ~/.local/share/applications
 cp ./mxtv/mxtvs.desktop ~/.local/share/applications
 rm -rf ~/Downloads/mxtv-installer
 ```
+### Uninstaller Example
+
+```#!/bin/sh
+rm -rf ~/mxtv
+sudo rm -rf /opt/mxtv
+rm ~/.local/share/applications/mxtv.desktop 
+rm ~/.local/share/applications/mxtvs.desktop 
+```
