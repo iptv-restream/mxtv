@@ -93,3 +93,13 @@ sudo rm -rf /opt/mxtv
 rm ~/.local/share/applications/mxtv.desktop 
 rm ~/.local/share/applications/mxtvs.desktop 
 ```
+```python3 /path/to/m3uEditorGtk.py```
+
+### m3uEditorGtk
+load m3u -> edit -> save m3u
+
+- delete channels
+- move channels up/down
+- filter
+
+![screenshot](https://github.com/Axel-Erfurt/m3uEdit/blob/main/screenshot2.png)
